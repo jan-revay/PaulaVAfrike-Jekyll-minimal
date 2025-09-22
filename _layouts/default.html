@@ -82,9 +82,9 @@
       
           const percent = Math.min(100, Math.round((raised / goal) * 100));
           progressEl.style.width = percent + "%";
-          progressEl.textContent = percent + "%";
-          raisedEl.textContent = "$" + raised.toLocaleString();
-          goalEl.textContent = "$" + goal.toLocaleString();
+          progressEl.textContent = " " + percent + "%";
+          raisedEl.textContent = raised.toLocaleString() + " EUR";
+          goalEl.textContent = goal.toLocaleString() + " EUR";
         </script>
 
         <div style="border-style: dotted; padding: 3px;">
