@@ -1,6 +1,6 @@
-title: Minimal theme
+title: Afrika si ma zavolala
 logo: /assets/img/paula_img_z_darujme_profile.jpeg
 description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
