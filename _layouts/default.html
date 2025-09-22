@@ -37,12 +37,12 @@
       font-weight: bold;
       transition: width 1s;
     }
-  .donated {
-    background: #f3f3f3;
-    border-radius: 15px;
-    padding: 1rem 2.5rem;
-    margin-bottom: 1rem;
-}
+    .donated {
+      background: #f3f3f3;
+      border-radius: 15px;
+      padding: 1rem 2.5rem;
+      margin-bottom: 1rem;
+    }
   </style>
   </head>
   <body>
@@ -99,7 +99,8 @@
           goalEl.textContent = "$" + goal.toLocaleString();
         </script>
 
-        <section class="donations-list donated l-no-phone"><p class="donated__header">Už darovali</p>
+        <section class="donations-list donated">
+        <p class="donated__header">Už darovali</p>
 
         <table class="donated__table">
               <tbody><tr class="donated__row">
@@ -134,7 +135,7 @@
             </tr>
           </tbody></table>
         
-        <div class="donated__controls">
+          <div class="donated__controls">
               <span class="donated__control-previous donated__control-icon donated__control-icon--disabled">
               <i class="icon-arrow-back"></i>
             </span>
@@ -148,6 +149,13 @@
             </a>
           </div>
         </section>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="display:inline-block; padding:10px 20px; background:#1877f2; color:white; border-radius:6px; text-decoration:none; font-weight:bold;">
+         Share on Facebook
+      </a>
       </header>
       <section>
      <img src="https://raw.githubusercontent.com/jan-revay/PaulaVAfrike-Jekyll-minimal/refs/heads/master/assets/img/darujme-pauli-velky-obr.jpeg" alt="velky_obr" />
