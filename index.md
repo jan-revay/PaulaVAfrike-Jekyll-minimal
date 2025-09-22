@@ -22,3 +22,5 @@ Ako misijná dobrovoľníčka nebudem dostávať za moju prácu žiadnu finančn
 Ak by ste sa chceli stať súčasťou tohto dobrodružstva, dostávať bližšie informácie z miesta môjho pôsobiska a sledovať moju misiu v Angole, môžete mi zaslať svoju emailovú adresu na paula.v.afrike@gmail.com a ja Vás budem pravidelne informovať.
 
 Viac informácií: <https://saleziani.sk/smd> a <https://savio.sk/dobrovolnictvo/zakladne-informacie/>
+
+Paulína Hírešová
