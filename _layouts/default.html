@@ -61,8 +61,6 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        <p>Paulína Hírešová</p>
-
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -90,8 +88,8 @@
         </script>
 
         <!-- PayPal Donate Button -->
-        <h4>Podporiť cez PayPal</h4>
-        <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <form action="https://www.paypal.com/donate" method="post" target="_top" style="border-style: dotted;">
+          <h4>Podporiť cez PayPal</h4>
           <input type="hidden" name="business" value="Z624ALGHWX43N" />
           <input type="hidden" name="currency_code" value="EUR" />
           <input type="image"
