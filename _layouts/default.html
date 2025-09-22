@@ -100,7 +100,21 @@
           goalEl.textContent = "$" + goal.toLocaleString();
         </script>
 
-        <div class="donated">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         style="display:inline-block; padding:10px 20px; background:#1877f2; color:white; border-radius:6px; text-decoration:none; font-weight:bold;">
+         Share on Facebook
+      </a>
+      </header>
+      <section>
+     <img src="https://raw.githubusercontent.com/jan-revay/PaulaVAfrike-Jekyll-minimal/refs/heads/master/assets/img/darujme-pauli-velky-obr.jpeg" alt="velky_obr" />
+        <br />
+      {{ content }}
+
+      </section>
+      <section>
+                <div class="donated">
         <p class="donated__header">Už darovali</p>
 
         <table class="donated__table">
@@ -150,19 +164,6 @@
             </a>
           </div>
         </div>
-
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" 
-         target="_blank" 
-         rel="noopener noreferrer"
-         style="display:inline-block; padding:10px 20px; background:#1877f2; color:white; border-radius:6px; text-decoration:none; font-weight:bold;">
-         Share on Facebook
-      </a>
-      </header>
-      <section>
-     <img src="https://raw.githubusercontent.com/jan-revay/PaulaVAfrike-Jekyll-minimal/refs/heads/master/assets/img/darujme-pauli-velky-obr.jpeg" alt="velky_obr" />
-        <br />
-      {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
