@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
 ## Ako som sa dostala k misii:
