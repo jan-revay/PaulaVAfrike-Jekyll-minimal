@@ -38,6 +38,36 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+
+                  <!-- Progress bar -->
+          <div class="progress-container">
+            <div id="progress" class="progress-bar">0%</div>
+          </div>
+          <p><span id="raised"></span> raised of <span id="goal"></span> goal</p>
+      
+          <!-- Photos -->
+          <div class="photos">
+            <img src="photo1.jpg" alt="Fundraiser photo 1">
+            <img src="photo2.jpg" alt="Fundraiser photo 2">
+            <img src="photo3.jpg" alt="Fundraiser photo 3">
+          </div>
+        </div>
+      
+        <script>
+          // Change these numbers
+          const goal = 5000;        // fundraising goal in $
+          const raised = 2350;      // amount raised so far
+      
+          const progressEl = document.getElementById('progress');
+          const raisedEl = document.getElementById('raised');
+          const goalEl = document.getElementById('goal');
+      
+          const percent = Math.min(100, Math.round((raised / goal) * 100));
+          progressEl.style.width = percent + "%";
+          progressEl.textContent = percent + "%";
+          raisedEl.textContent = "$" + raised.toLocaleString();
+          goalEl.textContent = "$" + goal.toLocaleString();
+        </script>
       </header>
       <section>
 
