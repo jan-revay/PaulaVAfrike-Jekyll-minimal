@@ -40,8 +40,6 @@
     .donated {
       background: #f3f3f3;
       border-radius: 15px;
-      padding: 1rem 2.5rem;
-      margin-bottom: 1rem;
     }
   </style>
   </head>
@@ -98,59 +96,57 @@
           raisedEl.textContent = "$" + raised.toLocaleString();
           goalEl.textContent = "$" + goal.toLocaleString();
         </script>
+
+        <section class="donated">
+        <p class="donated__header">Už darovali</p>
+
+        <table class="donated__table">
+              <tbody><tr class="donated__row">
+              <td class="donated__col">Anonymný podporovateľ</td>
+              <td class="donated__col">
+                        10 €
+                      </td>
+            </tr>
+              <tr class="donated__row">
+              <td class="donated__col">Anonymný podporovateľ</td>
+              <td class="donated__col">
+                        10 €
+                      </td>
+            </tr>
+              <tr class="donated__row">
+              <td class="donated__col">Anonymný podporovateľ</td>
+              <td class="donated__col">
+                        20 €
+                      </td>
+            </tr>
+              <tr class="donated__row">
+              <td class="donated__col">Veronika Jankechová</td>
+              <td class="donated__col">
+                        20 €
+                      </td>
+            </tr>
+              <tr class="donated__row">
+              <td class="donated__col">Anonymný podporovateľ</td>
+              <td class="donated__col">
+                        50 €
+                      </td>
+            </tr>
+          </tbody></table>
         
-        <div class="container">
-            <section class="donated">
-            <p class="donated__header">Už darovali</p>
-    
-            <table class="donated__table">
-                  <tbody><tr class="donated__row">
-                  <td class="donated__col">Anonymný podporovateľ</td>
-                  <td class="donated__col">
-                            10 €
-            				      </td>
-                </tr>
-                  <tr class="donated__row">
-                  <td class="donated__col">Anonymný podporovateľ</td>
-                  <td class="donated__col">
-                            10 €
-            				      </td>
-                </tr>
-                  <tr class="donated__row">
-                  <td class="donated__col">Anonymný podporovateľ</td>
-                  <td class="donated__col">
-                            20 €
-            				      </td>
-                </tr>
-                  <tr class="donated__row">
-                  <td class="donated__col">Veronika Jankechová</td>
-                  <td class="donated__col">
-                            20 €
-            				      </td>
-                </tr>
-                  <tr class="donated__row">
-                  <td class="donated__col">Anonymný podporovateľ</td>
-                  <td class="donated__col">
-                            50 €
-            				      </td>
-                </tr>
-              </tbody></table>
-            
-              <div class="donated__controls">
-                  <span class="donated__control-previous donated__control-icon donated__control-icon--disabled">
-                  <i class="icon-arrow-back"></i>
-                </span>
-              
-              <div class="donated__control-text">
-                17 darov
-              </div>
-            
-                  <a href="#" class="donated__control-next donated__control-icon " data-page="2">
-                  <i class="icon-arrow-forward"></i>
-                </a>
-              </div>
-            </section>
-        </div>
+          <div class="donated__controls">
+              <span class="donated__control-previous donated__control-icon donated__control-icon--disabled">
+              <i class="icon-arrow-back"></i>
+            </span>
+          
+          <div class="donated__control-text">
+            17 darov
+          </div>
+        
+              <a href="#" class="donated__control-next donated__control-icon " data-page="2">
+              <i class="icon-arrow-forward"></i>
+            </a>
+          </div>
+        </section>
 
         <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" 
          target="_blank" 
