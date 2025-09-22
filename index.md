@@ -3,6 +3,8 @@ layout: default
 title: Afrika si ma zavolala - Paulína Hírešová
 ---
 
+# Afrika si ma zavolala
+
 ## Ako som sa dostala k misii:
 
 Ahojte,  
