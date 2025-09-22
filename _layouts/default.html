@@ -23,9 +23,9 @@
       margin-top: 40px;
     }
     .progress-container {
-      margin: 20px 0;
+      margin: 10px 0;
       background: #e0e0e0;
-      border-radius: 25px;
+      border-radius: 20px;
       overflow: hidden;
     }
     .progress-bar {
@@ -62,7 +62,7 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" style="max-height: 180px;" />
         {% endif %}
 
                 <!-- Progress bar -->
@@ -82,7 +82,7 @@
       
           const percent = Math.min(100, Math.round((raised / goal) * 100));
           progressEl.style.width = percent + "%";
-          progressEl.textContent = "  " + percent + "%";
+          progressEl.textContent = "&nbsp;&nbsp;" + percent + "%";
           raisedEl.textContent = "$" + raised.toLocaleString();
           goalEl.textContent = "$" + goal.toLocaleString();
         </script>
